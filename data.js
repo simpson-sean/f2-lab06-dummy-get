@@ -1,4 +1,4 @@
-const trekCharacters = [
+const trek = [
     {
         id: 100,
         name: 'jean_luc_picard',
@@ -6,6 +6,7 @@ const trekCharacters = [
         faction: 'starfleet',
         role: 'command',
         rank: 'captain',
+        is_carbon_based: true,
     },
 
     {
@@ -15,6 +16,7 @@ const trekCharacters = [
         faction: 'starfleet',
         role: 'command',
         rank: 'lieutenant_commander',
+        is_carbon_based: false,
     },
 
     {
@@ -22,8 +24,10 @@ const trekCharacters = [
         name:'spock',
         species: 'vulcan',
         faction: 'starfleet',
-        role: 'science'
+        role: 'science',
         rank: 'commander',
+        is_carbon_based: true,
+
     },
 
     {
@@ -33,6 +37,7 @@ const trekCharacters = [
         faction: 'dominion',
         role: 'supervisor',
         rank: 'supervisor',
+        is_carbon_based: true,
     },
 
     {
@@ -42,6 +47,9 @@ const trekCharacters = [
         faction: 'klingon_empire',
         role: 'military',
         rank: 'general',
+        is_carbon_based: true,
     }
 
 ]
+
+module.exports = trek;
