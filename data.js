@@ -1,3 +1,4 @@
+//Array of Objects containinc Star Trek Character data.
 const trek = [
     {
         id: 100,
@@ -52,4 +53,5 @@ const trek = [
 
 ]
 
+//export data
 module.exports = trek;
