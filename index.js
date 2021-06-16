@@ -1,6 +1,6 @@
 //Basic code to serve live
 const app = require('./server.js');
-const port = process.env.PORT || 7826;
+const port = process.env.PORT || 3000;
 
 //logs confirmation to terminal
 app.listen(port, () => {
